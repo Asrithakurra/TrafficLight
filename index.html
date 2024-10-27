@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <link rel="stylesheet" href="style.css">
+          <script src="script.js"></script>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                   
+                        <h1 class="main-heading p-5">Traffic Light</h1>
+                        </div>
+                        <div class="col-6 pt-3 d-flex flex-row justify-content-end">
+                            <div>
+                        <div>
+                        <button class="light-button pl-4 pr-4" id="red" onclick="redButton()">Stop</button>
+                    </div>
+                    <div>
+                        <button class="light-button pl-3 pr-3" id="yellow" onclick="yellowButton()"> Ready </button>
+                    </div>
+                    <div>
+                        <button class="light-button pl-4 pr-4" id="green" onclick="greenButton()">  Go  </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="light-img">
+                            <div class="light-circle mb-2" id="redCircle"></div>
+                            <div class="light-circle mb-2" id="yellowCircle"></div>
+                            <div class="light-circle" id="greenCircle"></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
