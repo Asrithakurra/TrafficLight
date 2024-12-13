@@ -9,3 +9,4 @@ Technologies Used
 HTML: Markup for structuring the traffic light interface.
 CSS: Styling for the traffic light design and transitions.
 JavaScript: Logic for controlling the light transitions
+Link : https://traficlightweb.netlify.app/
